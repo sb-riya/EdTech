@@ -1,0 +1,29 @@
+/* CSS Debugging */
+*{
+  /* outline: 1px solid red; */
+  /* background-color: #ff000050; */
+}
+
+/* Carousel Dark Overlay */
+.dark{
+  filter: brightness(50%);
+}
+
+/* Feedback Section */
+.w-87{
+  width: 87%;
+}
+ 
+@media screen and (max-width: 1024px) {
+
+  /* Feedback Section */
+  .w-87{
+    width: 100%;
+  }
+
+  .feedback .carousel-control-prev, .feedback .carousel-control-next{
+    display: none;
+  }
+
+}
+
